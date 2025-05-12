@@ -8,17 +8,33 @@
 
   <body>
     <!-- header row with logo -->
-    <div class="header">
+    <div class="header" id="begin">
         <img id="tentacles" src="assets/tentacles.png">
         <h1 class="header-text">Sea Monster Crowdfunding</h1>
+        <!-- Bonus Feature -->
+        <div class="navbar">
+            <!--<a href="#description-container">About</a>-->
+            <a href="#about-link">About</a>
+            <!--<a <a href="#stats">Stats</a>-->
+            <a href="#stats-link">Stats</a>
+            <!-- <a href="#games-container">Our Games</a> -->
+            <a href="#ourgames-link">Our Games</a>
+        </div>
     </div>
 
+    <!-- navbar About section link so header doesn't cover -->
+    <div id="about-link" style="position: relative; top: -160px;"></div>
+   
+    <div class="rest">
     <!-- background info about company -->
     <h2>Welcome to Sea Monster!</h2>
     <div id="description-container">
         <p>The purpose of our company is to fund independent games. We've been in operation for 12 years.</p>
     </div>
 
+    <!-- navbar Stats section link so header doesn't cover -->
+    <div id="stats-link" style="position: relative; top: -130px;"></div>
+   
     <!-- top games & other interesting stats -->
     <h2>Stats</h2>
     <div class="stats-container">
@@ -47,16 +63,21 @@
         </div>
     </div>
 
+    <!-- navbar Our Games section link so header doesn't cover -->
+    <div id="ourgames-link" style="position: relative; top: -120px;"></div>
+   
     <!-- list of games funded by Sea Monster -->
     <h2>Our Games</h2>
     <p>Check out each of our games below!</p>
+    <a href="#games-container">
     <div id="button-container">
         <button id="unfunded-btn">Show Unfunded Only</button>
         <button id="funded-btn">Show Funded Only</button>
         <button id="all-btn">Show All Games</button>
     </div>
+    </a>
     <div id="games-container">
-
+    </div>
     </div>
 
     <script type="module" src="index.js"></script>
