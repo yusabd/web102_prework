@@ -84,7 +84,6 @@ button {
 }
 
 /* Bonus button hover */
-
 button:hover {
     cursor: pointer;
     background-color: lightblue;
