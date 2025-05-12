@@ -17,11 +17,11 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [x] The website inludes a navigation bar at the top to navigate to the About, Stats, and Our Games sections.
-* [x] The navigation bar remains accessible at the top of the page as the user scrolls for ease of navigation.
-* [x] When hovering over the navigation buttons, the show funded games button, the show unfunded games button, and the show all games button, the cursor turns into a pointer and the background and font color of the buttons changes to enhance usability, interactiveness, and visual appeal.
-* [x] When clicking on the show funded games, show unfunded games, and show all games buttons, the site loads at the Our Games section so the games are all in view.
-* [x] List anything else that you can get done to improve the app functionality!
+* [x] The website includes a navigation bar at the top to navigate to the About, Stats, and Our Games sections.
+* [x] The navigation bar remains accessible at the top of the page as the user scrolls, allowing for easier navigation.
+* [x] When hovering over the navigation buttons, as well as the "Show Funded Games," "Show Unfunded Games," and "Show All Games" buttons, the cursor changes to a pointer, and the background and font colors change to enhance usability, interactiveness, and visual appeal.
+* [x] When clicking on the "Show Funded Games," "Show Unfunded Games," or "Show All Games" buttons, the page scrolls to the Our Games section so the games are fully in view.
+* [x] The site smoothly scrolls when clicking on navigation buttons.
 
 ## Video Walkthrough
 
@@ -38,9 +38,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-
-Some challenges I encountered while building the app include ensuring the buttons in the navigation bar were well spaced. Another challenge, I encountered was making sure the header remains fixed at the top of the screen. Another challenge I encountered was when using the navigation bar, ensuring that the header does not cover the section title. A challenge I encoutnered was appropriately nesting and selecting features to customize the navigation bar buttons and positioning. 
+Some challenges I encountered while building the app included integrating the navigation bar within the header. I used Flexbox and nested div containers to customize the styling and positioning of the buttons, ensuring they were properly spaced. I also styled the header to remain fixed at the top of the screen and span the full width. Another challenge was preventing the fixed header from covering the section titles when navigating via anchor links. I resolved this by linking the navigation buttons to empty div elements positioned above the section titles, offset by the height of the header, to keep the titles visible.
 
 ## License
 
