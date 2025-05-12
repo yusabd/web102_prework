@@ -27,7 +27,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://imgur.com/a/A1ZWVC0' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![web102prework](https://github.com/user-attachments/assets/63036282-471f-4e54-aeb7-7af4df9eb5eb)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with LiceCap  
