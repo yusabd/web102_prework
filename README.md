@@ -1,23 +1,27 @@
 # WEB102 Prework - *Name of App Here*
 
-Submitted by: **Your Name Here**
+Submitted by: **Yusra Abdelrahman**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Game Changer** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [x] The introduction section explains the background of the company and how many games remain unfunded.
+* [x] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [x] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] The website inludes a navigation bar at the top to navigate to the About, Stats, and Our Games sections.
+* [x] The navigation bar remains accessible at the top of the page as the user scrolls for ease of navigation.
+* [x] When hovering over the navigation buttons, the show funded games button, the show unfunded games button, and the show all games button, the cursor turns into a pointer and the background and font color of the buttons changes to enhance usability, interactiveness, and visual appeal.
+* [x] When clicking on the show funded games, show unfunded games, and show all games buttons, the site loads at the Our Games section so the games are all in view.
+* [x] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
@@ -35,6 +39,8 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+Some challenges I encountered while building the app include ensuring the buttons in the navigation bar were well spaced. Another challenge, I encountered was making sure the header remains fixed at the top of the screen. Another challenge I encountered was when using the navigation bar, ensuring that the header does not cover the section title. A challenge I encoutnered was appropriately nesting and selecting features to customize the navigation bar buttons and positioning. 
 
 ## License
 
